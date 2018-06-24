@@ -1,0 +1,28 @@
+.wrapper {
+	max-width: 500px;
+	margin: auto;
+	}
+
+.wrapper h1 + p {
+	color: green;
+	}
+
+.wrapper [src] {
+	width: 50%;
+}
+
+.wrapper b ~ p {
+	color: pink;
+	}
+.wrapper .p1 {
+	background-color: #E1E9EE;
+}
+
+.wrapper h1, h2 {
+	background-color: #0173B1;
+	color: white;
+} 
+
+/*.wrapper h3 {
+	background-color: #0173B1;
+}*/
