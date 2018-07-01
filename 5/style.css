@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+	transition: all .1s ease-in;
+}
+
+html {
+    height: 100%;
+}
+/*что ты такое?*/
+body:before,
+body:after {
+    content: "";
+    position: fixed;
+    background: #2B81AC;
+    left: 0;
+    right: 0;
+    height: 20px;
+}
+
+body:before {
+    top: 0;
+}
+
+body:after {
+    bottom: 0;
+}
+
+
+body {
+	background-color: #3398cc;
+	color: #fff;
+	min-height: 100%;
+	font-family:  “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	border-left: 20px solid #2B81AC;
+    border-right: 20px solid #2B81AC;
+       
+}
+
+header {
+	padding: 60px 0 20px 150px;
+	
+
+}
+
+ul {
+	border: 2px solid #fff
+	list-style-type: none; /* убираем маркеры */
+	text-align: center;
+	padding:10px;
+	font-size: 0;
+	
+    width: 80%;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+ul:hover > li {
+    opacity: .6;
+}
+
+
+
+ul li {
+	
+	display: inline-block; /* выводим в одну строку */
+	border: 2px solid #fff;
+	text-align: center;
+	font-size: 20px; 
+	padding: 20px 0;
+	
+	}
+
+ul > li:hover {
+    opacity: 1;
+}
+
+
+li:nth-child(1) {
+		width: 50%;
+		background-color: #39C;
+}
+
+li:nth-child(2) {
+		width: 25%;
+		background-color: #33cccc;
+}
+
+li:nth-child(3) {
+		width: 25%;
+		background-color: #9A669A;
+}
+
+li:nth-child(4) {
+		width: 25%;
+		background-color: #C24747;
+}
+
+li:nth-child(5) {
+		width: 25%;
+		background-color: #E2674A;
+}
+
+li:nth-child(6) {
+		width: 25%;
+		background-color: #FFCC66;
+}
+
+li:nth-child(6) {
+		width: 25%;
+		background-color: #FFCC66;
+}
+
+li:nth-child(7) {
+		width: 25%;
+		background-color: #99CC99;
+}
+
+li:nth-child(8) {
+		width: 25%;
+		background-color: #669999;
+}
+
+li:nth-child(9) {
+		width: 50%;
+		background-color: #CC6699;
+}
+
+li:nth-child(10) {
+		width: 25%;
+		background-color: #339966;
+}
+
+li:nth-child(11) {
+		width: 100%;
+		background-color: #666699;
+}
+
+.temperature {
+	color: white;
+    font-size: 18px;
+    margin: 10px 0 0;
+
+}
+
+footer {
+    margin: 20px 0 50px 150px;
+    font-size: 17px;
