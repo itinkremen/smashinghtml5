@@ -1,51 +1,54 @@
+html{
+	background-color: #fff;
+}
+
 body{
 	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-size: 18px;
-	color: #464
-	}
+	color: #464b4f;
+	
+	width: 800px;
+	margin: 0 auto;
+}
 
-html {
-	background-color: #fff;
+header {
+	background-color: #23232E;
+	color: #fff;
+	text-align: center;
 }
 
 header h1 {
 	font-size: 80px;
 	text-transform: uppercase;
-	background-color: #23232e;
-	
 }
-
-header {
-	background-color: #23232e;
-	color: #ffffff;
-	text-align: center;
-}
-
-header h1, header p, header span {
-	color: #fff;
-}
-
 
 main p {
 	font-size: 30px;
 	text-align: center;
-	
-}
-
-footer {
-	color: #464
 }
 
 footer h2 {
 	text-transform: uppercase;
-
+	text-align: center;
 }
 
-footer ul li {
-	/*display: inline-block;*/
+footer li{
 	float: left;
-	width: 30%;
+	width: 33%;
 	list-style: none;
+}
+
+.expander {
+    display: inline-block;
+    color: white;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    line-height: 19px;
+    padding: 0 8px;
+    border: 1px solid white;
+    border-radius: 45%;
+	background-color: transparent;
 }
 
 /* Layout */
